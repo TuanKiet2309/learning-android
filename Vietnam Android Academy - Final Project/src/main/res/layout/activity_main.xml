@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.stc.merrrychristmas.MainActivity">
+
+    <ImageView
+        android:id="@+id/im_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_change"
+        android:text="change"
+        android:textSize="25dp"/>
+    <TextView
+        android:id="@+id/tv_MerryChrismas"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Merry Christmas"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="70sp"
+        android:gravity="center"
+        android:layout_below="@id/tv_change"
+        />
+
+    <TextView
+        android:id="@+id/tv_Countdown"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="text"
+        android:textSize="55dp"
+
+        android:layout_below="@id/tv_MerryChrismas"
+        />
+    <ImageView
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:paddingBottom="16dp"
+        android:id="@+id/im_amination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_Countdown"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ongnoel"
+        />
+    <ImageView
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:id="@+id/im_phaohoa1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/phaohoa1"
+        android:visibility="invisible"
+        android:layout_below="@id/tv_MerryChrismas"/>
+    <ImageView
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:id="@+id/im_phaohoa2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/phaohoa2"
+        android:visibility="invisible"
+        android:layout_alignParentRight="true"
+        />
+
+
+</RelativeLayout>
